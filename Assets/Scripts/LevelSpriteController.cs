@@ -15,6 +15,9 @@ public class LevelSpriteController : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             surface.speed = 20;
+        } else
+        {
+            surface.speed = 10;
         }
     }
 
